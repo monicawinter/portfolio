@@ -20,6 +20,6 @@ Throughout my life, I have always been surrounded by art. Both my grandfather an
 
 ## License & Copyright
 
-(c) 2016 Monica Winter
+© 2016 Monica Winter
 
 Licensed under the [MIT License](LICENSE).
