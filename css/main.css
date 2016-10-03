@@ -94,7 +94,7 @@ body {
   margin: 0em;
 }
 
-nav {
+header nav {
   background-color: #e6e7e8;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
@@ -107,15 +107,15 @@ nav {
   width: 90px;
 }
 
-nav li {
+header nav li {
   color: #00bbe6;
-  font-size: 1.4em;
+  font-size: 1.25em;
   text-align: center;
   margin: 0.5em;
   padding: 0.5em 0em 0.5em 0em;
 }
 
-nav li:hover {
+header nav li:hover {
   background-color: #00bbe6;
   margin-left: 4em;
   margin-right: 4em;
@@ -127,7 +127,7 @@ nav li:hover {
   border-color: #00bbe6;
   border-style: solid;
   color: #00bbe6;
-  margin: 1em 4em 0em 4em;
+  margin: 0em 4em 0em 4em;
   padding: 0.5em 0em 0.5em 0em;
 }
 
@@ -149,6 +149,68 @@ ul {
 .work-a2:hover {
   color: #fff;
   background-color: #00bbe6;
+}
+
+.work-h1 {
+  text-align: center;
+  font-size: 3.5em;
+  margin: 0.5em 0em 0em 0em;
+}
+
+.work-p1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0em 0em 1.5em 0em;
+}
+
+footer {
+  background-color: #e6e7e8;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #000;
+  font-size: 1.25em;
+}
+
+.copyright {
+  margin: 0.5em 0em 1em 0em;;
+}
+
+footer ul {
+  margin: 0em;
+}
+
+footer li {
+  margin: 0.25em 0.75em 0.25em 0.75em;
+  display: inline-block;
+}
+
+.email {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  display: inline-block;
+}
+
+.tumblr {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  display: inline-block;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #00bbe6;
+}
+
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
 }
 
 @media only screen and (min-width: 500px) {
