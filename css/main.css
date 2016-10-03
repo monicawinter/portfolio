@@ -49,12 +49,12 @@ body {
   margin-bottom: 2em;
 }
 
-a {
+.home-a {
   color: #00bbe6;
   text-decoration: none;
 }
 
-a:hover {
+.home-a:hover {
   color: #fff;
 }
 
@@ -92,6 +92,63 @@ a:hover {
 
 .p-button {
   margin: 0em;
+}
+
+nav {
+  background-color: #e6e7e8;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+}
+
+.nav-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+}
+
+nav li {
+  color: #00bbe6;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+nav li:hover {
+  background-color: #00bbe6;
+  margin-left: 4em;
+  margin-right: 4em;
+  color: #fff;
+}
+
+.current {
+  color: #fff;
+  border-color: #00bbe6;
+  border-style: solid;
+  color: #00bbe6;
+  margin: 1em 4em 0em 4em;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0em;
+}
+
+.work-a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.work-a2 {
+  color: #00bbe6;
+  text-decoration: none;
+}
+
+.work-a2:hover {
+  color: #fff;
+  background-color: #00bbe6;
 }
 
 @media only screen and (min-width: 500px) {
@@ -138,7 +195,7 @@ a:hover {
 
 @media only screen and (min-width: 565px) {
 
-a {
+.home-a {
   color: #fff;
 }
 
