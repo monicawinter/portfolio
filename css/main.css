@@ -51,20 +51,34 @@ body {
 
 .home-button1 {
   text-align: center;
-  background-color: #00bbe6;
-  color: #fff;
+  border-color: #00bbe6;
+  border-style: solid;
+  color: #00bbe6;
   margin: 0em 2em 0em 2em;
   padding: 0.5em 0em 0.5em 0em;
   font-size: 1.25em;
 }
 
+.home-button1:hover {
+  background-color: #00bbe6;
+  border-color: #00bbe6;
+  color: #fff;
+}
+
 .home-button2 {
   text-align: center;
-  background-color: #00bbe6;
-  color: #fff;
+  border-color: #00bbe6;
+  border-style: solid;
+  color: #00bbe6;
   margin: 1em 2em 0em 2em;
   padding: 0.5em 0em 0.5em 0em;
   font-size: 1.25em;
+}
+
+.home-button2:hover {
+  background-color: #00bbe6;
+  border-color: #00bbe6;
+  color: #fff;
 }
 
 .p-button {
@@ -73,17 +87,24 @@ body {
 
 @media only screen and (min-width: 500px) {
 
-.home-h1 {
+.home-logo {
   position: absolute;
-  top: 2.5em;
   width: 100%;
   left: 0px;
-  font-size: 3.5em;
+  top: 1em;
+}
+
+.home-h1 {
+  position: absolute;
+  top: 2.4em;
+  width: 100%;
+  left: 0px;
+  font-size: 3em;
 }
 
 .home-p {
   position: absolute;
-  top: 8em;
+  top: 9em;
   width: 100%;
   left: 0px;
 }
@@ -91,27 +112,191 @@ body {
 .home-button1 {
   position: absolute;
   width: 25%;
-  left: 120px;
-  top: 11em;
+  left: 100px;
+  top: 17em;
+  margin: 0em;
 }
 
 .home-button2 {
   position: absolute;
   width: 25%;
-  right: 120px;
-  top: 11em;
+  right: 100px;
+  top: 17em;
+  margin: 0em;
 }
 
 }
 
-@media only screen and (min-width: 625px) {
+@media only screen and (min-width: 565px) {
 
 .home-button1 {
-  left: 135px;
+  top: 11.5em;
+  left: 120px;
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
 }
 
 .home-button2 {
-  right: 135px;
+  top: 11.5em;
+  right: 120px;
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
 }
+
+}
+
+@media only screen and (min-width: 630px) {
+
+  .home-button1 {
+    top: 12em;
+    left: 130px;
+  }
+
+  .home-button2 {
+    top: 12em;
+    right: 130px;
+  }
+
+}
+
+@media only screen and (min-width: 740px) {
+
+  .home-logo {
+    top: 2em;
+  }
+
+  .home-h1 {
+    top: 2.5em;
+    font-size: 3.25em;
+  }
+
+  .home-p {
+    top: 9em;
+    font-size: 1.4em;
+  }
+
+  .home-button1 {
+    top: 13em;
+    left: 155px;
+  }
+
+  .home-button2 {
+    top: 13em;
+    right: 155px;
+  }
+
+}
+
+@media only screen and (min-width: 860px) {
+
+  .home-logo {
+    top: 3em;
+  }
+
+  .home-h1 {
+    top: 2.4em;
+    font-size: 3.75em;
+  }
+
+  .home-p {
+    top: 9.5em;
+    font-size: 1.5em;
+  }
+
+  .home-button1 {
+    top: 15em;
+    left: 180px;
+  }
+
+  .home-button2 {
+    top: 15em;
+    right: 180px;
+  }
+
+}
+
+
+@media only screen and (min-width: 975px) {
+
+  .home-logo {
+    height: 100px;
+    top: 3.5em;
+  }
+
+  .home-h1 {
+    top: 2.6em;
+    font-size: 4.25em;
+  }
+
+  .home-p {
+    top: 9.5em;
+    font-size: 1.75em;
+  }
+
+  .home-button1 {
+    top: 17em;
+    left: 210px;
+  }
+
+  .home-button2 {
+    top: 17em;
+    right: 210px;
+  }
+
+}
+
+@media only screen and (min-width: 1060px) {
+
+  .home-logo {
+    height: 110px;
+    top: 4em;
+  }
+
+  .home-h1 {
+    top: 2.7em;
+    font-size: 4.5em;
+  }
+
+  .home-p {
+    top: 10.5em;
+  }
+
+  .home-button1 {
+    top: 19em;
+    left: 245px;
+  }
+
+  .home-button2 {
+    top: 19em;
+    right: 245px;
+  }
+
+}
+
+@media only screen and (min-width: 1340px) {
+
+  .home-logo {
+    top: 5em;
+  }
+
+  .home-h1 {
+    font-size: 5em;
+  }
+
+  .home-p {
+    top: 12em;
+  }
+
+  .home-button1 {
+    top: 22.5em;
+    left: 320px;
+  }
+
+  .home-button2 {
+    top: 22.5em;
+    right: 320px;
+  }
 
 }
