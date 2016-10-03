@@ -49,6 +49,15 @@ body {
   margin-bottom: 2em;
 }
 
+a {
+  color: #00bbe6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
 .home-button1 {
   text-align: center;
   border-color: #00bbe6;
@@ -128,6 +137,10 @@ body {
 }
 
 @media only screen and (min-width: 565px) {
+
+a {
+  color: #fff;
+}
 
 .home-button1 {
   top: 11.5em;
