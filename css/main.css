@@ -305,6 +305,7 @@ footer {
 
 footer ul {
   margin: 0em;
+  width: 100%;
 }
 
 footer li {
@@ -393,7 +394,7 @@ header nav {
   margin-left: 1em;
 }
 
-ul {
+nav ul {
   margin: 0em;
   float: right;
 }
