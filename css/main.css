@@ -428,6 +428,30 @@ header nav li:hover {
   margin: 0em;
 }
 
+.h2-pack {
+  font-size: 3em;
+}
+
+.h2-print {
+  font-size: 3em;
+}
+
+.h2-brand {
+  font-size: 3em;
+}
+
+.h2-illus {
+  font-size: 3em;
+}
+
+.h2-mark {
+  font-size: 3em;
+}
+
+.h2-motion {
+  font-size: 3em;
+}
+
 }
 
 @media only screen and (min-width: 565px) {
@@ -464,6 +488,71 @@ header nav li:hover {
   .home-button2 {
     top: 12em;
     right: 130px;
+  }
+
+  .work-s-1 {
+    width: 50%;
+    float: left;
+    z-index: 200;
+  }
+
+  .h2-pack {
+    top: 30%;
+  }
+
+  .work-s-2 {
+    width: 50%;
+    float: right;
+    z-index: 200;
+  }
+
+  .h2-print {
+    top: 30%;
+  }
+
+  .work-s-3 {
+    width: 50%;
+    float: left;
+    z-index: 200;
+  }
+
+  .h2-brand {
+    top: 30%;
+  }
+
+  .work-s-4 {
+    width: 50%;
+    float: right;
+    z-index: 200;
+  }
+
+  .h2-illus {
+    top: 30%;
+  }
+
+  .work-s-5 {
+    width: 50%;
+    float: left;
+    z-index: 200;
+  }
+
+  .h2-mark {
+    top: 30%;
+  }
+
+  .work-s-6 {
+    width: 50%;
+    float: right;
+    z-index: 200;
+  }
+
+  .h2-motion {
+    top: 30%;
+  }
+
+  footer {
+    clear: both;
+    padding-top: 2em;
   }
 
 }
@@ -520,6 +609,30 @@ header nav li:hover {
   .home-button2 {
     right: 180px;
     font-size: 1.5em;
+  }
+
+  .h2-pack {
+    top: 37%;
+  }
+
+  .h2-print {
+    top: 37%;
+  }
+
+  .h2-brand {
+    top: 37%;
+  }
+
+  .h2-illus {
+    top: 37%;
+  }
+
+  .h2-mark {
+    top: 37%;
+  }
+
+  .h2-motion {
+    top: 37%;
   }
 
 }
@@ -625,5 +738,54 @@ header nav li:hover {
     top: 18em;
     right: 320px;
   }
+
+  .work-s-1 {
+    padding: 2em 1em 1em 2em;
+  }
+
+  .h2-pack {
+    padding: 0em 1em 0em 0em;
+  }
+
+  .work-s-2 {
+    padding: 2em 2em 1em 1em;
+  }
+
+  .h2-print {
+    padding: 0em 2em 0em 1em;
+  }
+
+  .work-s-3 {
+    padding: 1em 1em 1em 2em;
+  }
+
+  .h2-brand {
+    padding: 0em 1em 0em 0em;
+  }
+
+  .work-s-4 {
+    padding: 1em 2em 1em 1em;
+  }
+
+  .h2-illus {
+    padding: 0em 1em 0em 0em;
+  }
+
+  .work-s-5 {
+    padding: 1em 1em 2em 2em;
+  }
+
+  .h2-mark {
+    padding: 0em 1em 0em 0em;
+  }
+
+  .work-s-6 {
+    padding: 1em 2em 2em 1em;
+  }
+
+  .h2-motion {
+    padding: 0em 1em 0em 0em;
+  }
+
 
 }
