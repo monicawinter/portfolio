@@ -161,6 +161,131 @@ ul {
   text-align: center;
   font-size: 1.5em;
   margin: 0em 0em 1.5em 0em;
+  color: #00bbe6;
+}
+
+.sections img {
+  width: 100%;
+}
+
+.section1-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-1 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-pack {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.section2-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-2 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-print {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.section3-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-3 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-brand {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.section4-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-4 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-illus {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.section5-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-5 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-mark {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
+}
+
+.section6-photo:hover {
+  opacity: 0.7;
+}
+
+.work-s-6 {
+  position: relative;
+  background-color: #000;
+}
+
+.h2-motion {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  z-index: 200;
+  font-size: 2em;
+  text-align: center;
+  top: 38%;
+  transform: translateY(-50%);
 }
 
 footer {
@@ -170,10 +295,12 @@ footer {
   padding-bottom: 1em;
   color: #000;
   font-size: 1.25em;
+  margin-top: 2em;
 }
 
 .copyright {
-  margin: 0.5em 0em 1em 0em;;
+  margin: 1em 0em 1em 0em;;
+  font-size: 0.75em;
 }
 
 footer ul {
@@ -186,31 +313,33 @@ footer li {
 }
 
 .email {
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   display: inline-block;
 }
 
+.email:hover {
+  opacity: 0.7;
+}
+
 .tumblr {
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   display: inline-block;
+}
+
+.tumblr:hover {
+  opacity: 0.7;
 }
 
 footer a {
   color: #000;
   text-decoration: none;
+  font-size: 1em;
 }
 
 footer a:hover {
   color: #00bbe6;
-}
-
-.footer-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90px;
 }
 
 @media only screen and (min-width: 500px) {
