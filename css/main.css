@@ -22,6 +22,10 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .home-photo {
   width: 100%;
   position: relative;
@@ -343,6 +347,16 @@ footer a:hover {
   color: #00bbe6;
 }
 
+.about-p {
+  margin: 0em 1.5em 1.5em 1.5em;
+}
+
+.about-h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0.5em 0em 0.25em 0em;
+}
+
 @media only screen and (min-width: 500px) {
 
 .home-logo {
@@ -476,6 +490,14 @@ header nav li:hover {
   color: #fff;
 }
 
+.work-h1 {
+  font-size: 4.5em;
+}
+
+.about-h1 {
+  font-size: 3.5em;
+}
+
 }
 
 @media only screen and (min-width: 630px) {
@@ -555,6 +577,11 @@ header nav li:hover {
     padding-top: 2em;
   }
 
+  .home-photo2 {
+    height: 100px;
+    overflow: hidden;
+  }
+
 }
 
 @media only screen and (min-width: 740px) {
@@ -581,6 +608,22 @@ header nav li:hover {
   .home-button2 {
     top: 13em;
     right: 155px;
+  }
+
+  .work-h1 {
+    font-size: 5em;
+  }
+
+  .about-h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0px;
+    font-size: 4em;
+  }
+
+  .about-p {
+    margin: 4em 3em 5em 3em;
   }
 
 }
@@ -665,6 +708,15 @@ header nav li:hover {
     right: 210px;
   }
 
+  .about-h1 {
+    top: 60%;
+    font-size: 5em;
+  }
+
+  .about-p {
+    font-size: 1.25em;
+  }
+
 }
 
 @media only screen and (min-width: 1060px) {
@@ -713,6 +765,15 @@ header nav li:hover {
     margin-top: 0.75em;
   }
 
+  .work-h1 {
+    font-size: 6em;
+    margin-top: 0.4em;
+  }
+
+  .work-p1 {
+    font-size: 1.75em;
+  }
+
 }
 
 @media only screen and (min-width: 1340px) {
@@ -739,12 +800,17 @@ header nav li:hover {
     right: 320px;
   }
 
+  .work-h1 {
+    font-size: 7em;
+  }
+
   .work-s-1 {
     padding: 2em 1em 1em 2em;
   }
 
   .h2-pack {
     padding: 0em 1em 0em 0em;
+    top: 43%;
   }
 
   .work-s-2 {
@@ -753,6 +819,7 @@ header nav li:hover {
 
   .h2-print {
     padding: 0em 2em 0em 1em;
+    top: 43%;
   }
 
   .work-s-3 {
@@ -761,6 +828,7 @@ header nav li:hover {
 
   .h2-brand {
     padding: 0em 1em 0em 0em;
+    top: 41%;
   }
 
   .work-s-4 {
@@ -769,6 +837,7 @@ header nav li:hover {
 
   .h2-illus {
     padding: 0em 1em 0em 0em;
+    top: 41%;
   }
 
   .work-s-5 {
@@ -777,6 +846,7 @@ header nav li:hover {
 
   .h2-mark {
     padding: 0em 1em 0em 0em;
+    top: 39%;
   }
 
   .work-s-6 {
@@ -785,6 +855,19 @@ header nav li:hover {
 
   .h2-motion {
     padding: 0em 1em 0em 0em;
+    top: 39%;
+  }
+
+  .about-h1 {
+    top: 55%;
+    font-size: 6em;
+  }
+
+  .about-p {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 5em;
   }
 
 
