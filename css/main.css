@@ -367,6 +367,12 @@ footer a:hover {
   color: #00bbe6;
 }
 
+.work-sectionsh22 {
+  text-align: center;
+  margin: 0.75em 1em 0em 1em;
+  color: #00bbe6;
+}
+
 .written-section1 {
   margin: 0em 1.25em 3.5em 1.25em;
 }
@@ -396,6 +402,13 @@ figcaption {
 
 .closing {
   margin: 2em 1.25em 4em 1.25em;
+}
+
+.line {
+  height: 1px;
+  background-color: black;
+  border-bottom: 2px solid lightgrey;
+  margin: 2em 4em 5em 4em;
 }
 
 @media only screen and (min-width: 500px) {
@@ -543,7 +556,23 @@ header nav li:hover {
   color: #fff;
   position: absolute;
   width: 100%;
-  top: 60%;
+  top: 34%;
+  z-index: 200;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px #888888;
+  margin-left: 0em;
+}
+
+.home-photo2 {
+  position: relative;
+}
+
+.work-sectionsh22 {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  top: 34%;
   z-index: 200;
   text-align: center;
   font-size: 2em;
@@ -635,6 +664,11 @@ header nav li:hover {
     overflow: hidden;
   }
 
+  .line {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+
 }
 
 @media only screen and (min-width: 740px) {
@@ -680,7 +714,12 @@ header nav li:hover {
   }
 
   .work-sectionsh2 {
-    top: 67%;
+    top: 40%;
+    font-size: 2.25em;
+  }
+
+  .work-sectionsh22 {
+    top: 40%;
     font-size: 2.25em;
   }
 
@@ -795,6 +834,12 @@ header nav li:hover {
     height: 240px;
   }
 
+  .line {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 
@@ -892,7 +937,12 @@ header nav li:hover {
   }
 
   .work-sectionsh2 {
-    top: 70%;
+    top: 34%;
+    font-size: 3em;
+  }
+
+  .work-sectionsh22 {
+    top: 34%;
     font-size: 3em;
   }
 
@@ -1002,6 +1052,12 @@ header nav li:hover {
 
   .work-sectionsh2 {
     font-size: 4em;
+    top: 26%;
+  }
+
+  .work-sectionsh22 {
+    font-size: 4em;
+    top: 26%;
   }
 
   .written-section1 {
