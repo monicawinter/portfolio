@@ -407,7 +407,7 @@ figcaption {
 .line {
   height: 1px;
   background-color: black;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid #00bbe6;
   margin: 2em 4em 5em 4em;
 }
 
