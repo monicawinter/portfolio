@@ -547,6 +547,7 @@ header nav li:hover {
   text-align: center;
   font-size: 2em;
   text-shadow: 2px 2px 5px #888888;
+  margin-left: 0em;
 }
 
 }
@@ -675,6 +676,65 @@ header nav li:hover {
 
   .about-p {
     margin: 4em 3em 5em 3em;
+  }
+
+  .work-sectionsh2 {
+    top: 67%;
+    font-size: 2.25em;
+  }
+
+  .written-section1 {
+    position: relative;
+    height: 260px;
+  }
+
+  .write-s-1 {
+    position: absolute;
+    width: 50%;
+    float: left;
+    padding: 1.5em;
+  }
+
+  .write-s-2 {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    padding: 1.5em;
+  }
+
+  figure {
+    width: 50%;
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 4em;
+  }
+
+  .fig1 {
+    float: left;
+  }
+
+  .fig2 {
+    left: 50%;
+  }
+
+  figcaption {
+    text-align: left;
+  }
+
+  .final-img1 {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+
+  .final-img2 {
+    width: 50%;
+    display: inline-block;
+    left: 50%;
+  }
+
+  .closing {
+    margin: 3em 3em 5em 3em;
   }
 
 }
