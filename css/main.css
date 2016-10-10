@@ -447,20 +447,23 @@ figcaption {
 header nav {
   padding-top: 0.75em;
   padding-bottom: 1em;
+  overflow: hidden;
 }
 
 .nav-logo {
   display: inline-block;
   width: 60px;
   margin-left: 1em;
+  float: left;
 }
 
 header nav ul {
   right: 1em;
   float: right;
   display: inline-block;
+  margin-top: 0.25em;
   position: absolute;
-  margin-top: 0.5em;
+  width: 75%;
 }
 
 header nav li {
