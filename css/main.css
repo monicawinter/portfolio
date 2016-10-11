@@ -393,6 +393,10 @@ figcaption {
   width: 100%;
 }
 
+video {
+  width: 100%;
+}
+
 .closing {
   margin: 2em 1.25em 4em 1.25em;
 }
