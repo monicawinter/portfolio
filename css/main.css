@@ -892,19 +892,15 @@ header nav li {
   }
 
   header nav li {
-    margin-top: 0.75em;
-  }
-
-  header nav li:hover {
-    margin-top: 0.75em;
+    margin-top: 0.5em;
   }
 
   .current {
-    margin-top: 0.75em;
+    margin-top: 0.5em;
   }
 
   .current:hover {
-    margin-top: 0.75em;
+    margin-top: 0.5em;
   }
 
   .work-h1 {
