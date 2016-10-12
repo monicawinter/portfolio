@@ -373,7 +373,7 @@ footer a:hover {
 figure {
   width: 100%;
   overflow: hidden;
-  margin: 0em 0em 2em 0em;
+  margin: 0em;
 }
 
 .fig-img {
@@ -381,8 +381,15 @@ figure {
 }
 
 figcaption {
-  text-align: center;
+  text-align: left;
   margin-top: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.final {
+  margin-top: 4em;
 }
 
 .final-img1 {
@@ -399,6 +406,7 @@ video {
 
 .closing {
   margin: 2em 1.25em 4em 1.25em;
+  text-align: center;
 }
 
 .line {
@@ -406,6 +414,19 @@ video {
   background-color: black;
   border-bottom: 2px solid #00bbe6;
   margin: 2em 4em 5em 4em;
+}
+
+@media only screen and (min-width: 450px) {
+
+.written-section1 {
+  margin: 0.5em 3.5em 4em 3.5em;
+}
+
+figcaption {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 }
 
 @media only screen and (min-width: 500px) {
@@ -706,6 +727,7 @@ header nav li {
   .written-section1 {
     position: relative;
     height: 260px;
+    margin: 0em 2.5em 2em 2.5em;
   }
 
   .write-s-1 {
@@ -726,7 +748,6 @@ header nav li {
     width: 50%;
     display: inline-block;
     padding: 1em;
-    margin-bottom: 4em;
   }
 
   .fig1 {
@@ -738,7 +759,11 @@ header nav li {
   }
 
   figcaption {
-    text-align: left;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-bottom: 0em;
   }
 
   .final-img1 {
@@ -755,6 +780,7 @@ header nav li {
 
   .closing {
     margin: 3em 3em 5em 3em;
+    font-size: 1.25em;
   }
 
 }
@@ -852,6 +878,10 @@ header nav li {
   .home-button2 {
     top: 14.5em;
     right: 210px;
+  }
+
+  .written-section1 {
+    margin: 0em 4.5em 1em 4.5em;
   }
 
   .about-h1 {
@@ -1042,6 +1072,10 @@ header nav li {
 
   .written-section1 {
     height: 200px;
+  }
+
+  .final {
+    margin-top: 6em;
   }
 
 }
