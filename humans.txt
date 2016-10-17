@@ -1,0 +1,12 @@
+#humanstxt.org
+
+# TEAM
+
+Designer & Developer: Monica Winter <monica@monicawinter.ca>
+Site: http://monicawinter.ca
+Github: https://github.com/monicawinter
+Location: Ottawa, Canada
+
+---
+
+# THANKS

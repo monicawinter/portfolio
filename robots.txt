@@ -1,0 +1,3 @@
+Sitemap: https://monicawinter.ca/sitemap.xml
+
+User-agent: *
