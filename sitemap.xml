@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://monicawinter.ca/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/work.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/about.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/packaging.html</loc>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/print.html</loc>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/brand.html</loc>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/illustration.html</loc>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/marketing.html</loc>
+  </url>
+
+  <url>
+    <loc>https://monicawinter.ca/motion.html</loc>
+  </url>
+
+</urlset>
