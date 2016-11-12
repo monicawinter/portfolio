@@ -587,6 +587,10 @@ header nav li {
   position: relative;
 }
 
+.home-photo2-3 {
+  position: relative;
+}
+
 .work-sectionsh22 {
   color: #fff;
   position: absolute;
@@ -817,6 +821,11 @@ header nav li {
     bottom: -60px;
   }
 
+  .polter {
+    padding: 2em;
+    margin: 0em;
+  }
+
 }
 
 @media only screen and (min-width: 860px) {
@@ -896,6 +905,13 @@ header nav li {
     bottom: -90px;
   }
 
+  .polter {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+  }
+
 }
 
 
@@ -937,6 +953,11 @@ header nav li {
 
   .about-p {
     font-size: 1.25em;
+  }
+
+  .polter {
+    padding-left: 6em;
+    padding-right: 6em;
   }
 
 }
@@ -1012,6 +1033,11 @@ header nav li {
 
   .height-adjust-2 {
     bottom: -170px;
+  }
+
+  .polter {
+    padding-left: 9em;
+    padding-right: 9em;
   }
 
 }
