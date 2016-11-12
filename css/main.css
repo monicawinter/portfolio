@@ -591,6 +591,10 @@ header nav li {
   position: relative;
 }
 
+.home-photo2-4 {
+  position: relative;
+}
+
 .work-sectionsh22 {
   color: #fff;
   position: absolute;
@@ -824,6 +828,11 @@ header nav li {
   .polter {
     padding: 2em;
     margin: 0em;
+  }
+
+  .home-photo2-4 {
+    height: 400px;
+    overflow: hidden;
   }
 
 }
