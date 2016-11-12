@@ -183,6 +183,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .section2-photo:hover {
@@ -203,6 +204,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .section3-photo:hover {
@@ -223,6 +225,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .section4-photo:hover {
@@ -243,6 +246,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .section5-photo:hover {
@@ -263,6 +267,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .section6-photo:hover {
@@ -283,6 +288,7 @@ ul {
   text-align: center;
   top: 38%;
   transform: translateY(-50%);
+  text-shadow: 2px 2px 5px #888888;
 }
 
 footer {
@@ -370,8 +376,6 @@ footer a:hover {
   margin: 0em 1.25em 3.5em 1.25em;
 }
 
-
-
 figure {
   width: 100%;
   overflow: hidden;
@@ -416,6 +420,14 @@ video {
   background-color: black;
   border-bottom: 2px solid #00bbe6;
   margin: 2em 4em 5em 4em;
+}
+
+.final-img1-cheo {
+  width: 100%;
+}
+
+.final-img2-cheo {
+  width: 100%;
 }
 
 @media only screen and (min-width: 450px) {
@@ -571,6 +583,10 @@ header nav li {
   position: relative;
 }
 
+.home-photo2-2 {
+  position: relative;
+}
+
 .work-sectionsh22 {
   color: #fff;
   position: absolute;
@@ -665,6 +681,14 @@ header nav li {
   .home-photo2 {
     height: 400px;
     overflow: hidden;
+  }
+
+  .height-adjust {
+    position: absolute;
+  }
+
+  .height-adjust-2 {
+    position: absolute;
   }
 
   .line {
@@ -789,6 +813,10 @@ header nav li {
     font-size: 1.25em;
   }
 
+  .height-adjust-2 {
+    bottom: -60px;
+  }
+
 }
 
 @media only screen and (min-width: 860px) {
@@ -858,6 +886,14 @@ header nav li {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .height-adjust {
+    bottom: -50px;
+  }
+
+  .height-adjust-2 {
+    bottom: -90px;
   }
 
 }
@@ -972,6 +1008,10 @@ header nav li {
     margin-top: 3em;
     margin-bottom: 6em;
     text-align: center;
+  }
+
+  .height-adjust-2 {
+    bottom: -170px;
   }
 
 }
@@ -1090,6 +1130,14 @@ header nav li {
 
   .final {
     margin-top: 6em;
+  }
+
+  .height-adjust {
+    bottom: -100px;
+  }
+
+  .height-adjust-2 {
+    bottom: -270px;
   }
 
 }
