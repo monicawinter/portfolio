@@ -699,6 +699,10 @@ header nav li {
     position: absolute;
   }
 
+  .height-adjust-3 {
+    position: absolute;
+  }
+
   .line {
     margin-left: 8em;
     margin-right: 8em;
@@ -825,6 +829,10 @@ header nav li {
     bottom: -60px;
   }
 
+  .height-adjust-3 {
+    bottom: -20px;
+  }
+
   .polter {
     padding: 2em;
     margin: 0em;
@@ -914,6 +922,10 @@ header nav li {
     bottom: -90px;
   }
 
+  .height-adjust-3 {
+    bottom: -60px;
+  }
+
   .polter {
     padding-left: 4em;
     padding-right: 4em;
@@ -967,6 +979,10 @@ header nav li {
   .polter {
     padding-left: 6em;
     padding-right: 6em;
+  }
+
+  .height-adjust-3 {
+    bottom: -95px;
   }
 
 }
@@ -1042,6 +1058,10 @@ header nav li {
 
   .height-adjust-2 {
     bottom: -170px;
+  }
+
+  .height-adjust-3 {
+    top: -100px;
   }
 
   .polter {
@@ -1173,6 +1193,10 @@ header nav li {
 
   .height-adjust-2 {
     bottom: -270px;
+  }
+
+  .height-adjust-3 {
+    top: -230px;
   }
 
 }
