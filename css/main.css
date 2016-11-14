@@ -476,6 +476,8 @@ figcaption {
   width: 100%;
   left: 0px;
   font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .home-p {
@@ -483,6 +485,8 @@ figcaption {
   top: 9em;
   width: 100%;
   left: 0px;
+  color: white;
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .home-button1 {
@@ -567,6 +571,7 @@ header nav li {
   border-color: #fff;
   border-style: solid;
   color: #fff;
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .home-button2 {
@@ -575,6 +580,7 @@ header nav li {
   border-color: #fff;
   border-style: solid;
   color: #fff;
+  text-shadow: 2px 2px 5px #888888;
 }
 
 .work-h1 {
@@ -773,6 +779,8 @@ header nav li {
     width: 100%;
     left: 0px;
     font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 5px #888888;
   }
 
   .about-p {
