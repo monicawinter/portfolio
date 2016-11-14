@@ -98,6 +98,10 @@ h1 {
   margin: 0em;
 }
 
+.home-body {
+  margin-bottom: 4em;
+}
+
 header nav {
   background-color: #e6e7e8;
   padding-top: 1.5em;
@@ -583,6 +587,10 @@ header nav li {
   border-style: solid;
   color: #fff;
   text-shadow: 2px 2px 5px #888888;
+}
+
+.home-body {
+  margin-bottom: 0em;
 }
 
 .work-h1 {
