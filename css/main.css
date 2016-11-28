@@ -10,17 +10,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  margin: 0em;
-  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.fonts-loaded {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
+body {
+  margin: 0em;
 }
 
 h1 {

@@ -6,6 +6,7 @@
   <meta name="description" content="Hi! I'm Monica Winter; a designer, illustrator, and photographer living in Ottawa.">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/dealy-fonts.css" rel="stylesheet">
   <link href="{{site.baseurl}}/images/favicon.ico" rel="shortcut icon">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 </head>
@@ -53,20 +54,25 @@ I(c,'"'+c.family+'",serif'));z(p,function(a){h=a;t()});x(p,I(c,'"'+c.family+'",m
 <script>
   var oswaldRegular, oswaldBold;
 
-  oswaldRegular = new FontFaceObserver('Oswald', {
-    weight: 'normal'
-  });
+  if (!sessionStorage.fontsLoaded) {
+    oswaldRegular = new FontFaceObserver('Oswald', {
+      weight: 'normal'
+    });
 
-  oswaldBold = new FontFaceObserver('Oswald', {
-    weight: 'bold'
-  });
+    oswaldBold = new FontFaceObserver('Oswald', {
+      weight: 'bold'
+    });
 
-  Promise.all([
-    oswaldRegular.check(),
-    oswaldBold.check()
-  ]).then(function () {
+    Promise.all([
+      oswaldRegular.check(),
+      oswaldBold.check()
+    ]).then(function () {
+      document.documentElement.className += ' fonts-loaded';
+      sessionStorage.fontsLoaded = true;
+    });
+  } else {
     document.documentElement.className += ' fonts-loaded';
-  });
+  }
 </script>
 </body>
 </html>
