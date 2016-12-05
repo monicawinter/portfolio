@@ -16,6 +16,23 @@ html {
   box-sizing: inherit;
 }
 
+.errors {
+  background-color: black;
+  margin: 0em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.error-page {
+  color: white;
+  text-align: center;
+}
+
+.error-port {
+  text-decoration: none;
+  color: #00bbe6;
+}
+
 body {
   margin: 0em;
   font-family: 'Oswald', sans-serif;
