@@ -45,6 +45,8 @@ html {
   width: 100%;
   bottom: 0;
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -606,6 +608,10 @@ header nav li {
 
 @media only screen and (min-width: 565px) {
 
+.face {
+  height: 150px;
+}
+
 .home-a {
   color: #fff;
 }
@@ -1088,6 +1094,10 @@ header nav li {
 
   .e-body {
     margin-top: 10em;
+  }
+
+  .face {
+    height: 200px;
   }
 
   .home-logo {
