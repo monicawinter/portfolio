@@ -804,6 +804,10 @@ header nav li {
 
 @media only screen and (min-width: 740px) {
 
+  .face {
+    height: 200px;
+  }
+
   .home-logo {
     top: 2em;
   }
@@ -1091,10 +1095,6 @@ header nav li {
 }
 
 @media only screen and (min-width: 1060px) {
-
-  .face {
-    height: 200px;
-  }
 
   .home-logo {
     height: 110px;
