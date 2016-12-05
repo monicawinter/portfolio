@@ -41,6 +41,12 @@ html {
   color: #00bbe6;
 }
 
+.face {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
 body {
   margin: 0em;
   font-family: 'Oswald', sans-serif;
