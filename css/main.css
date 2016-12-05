@@ -479,6 +479,10 @@ iframe {
 
 @media only screen and (min-width: 450px) {
 
+.e-body {
+  margin: 5em 3em 2em 3em;
+}
+
 .written-section1 {
   margin: 0.5em 3.5em 4em 3.5em;
 }
@@ -667,6 +671,18 @@ header nav li {
 }
 
 @media only screen and (min-width: 630px) {
+
+  .e-body {
+    margin: 7em 3em 2em 3em;
+  }
+
+  .e-page {
+    font-size: 2em;
+  }
+
+  .e-h1 {
+    font-size: 5em;
+  }
 
   .home-button1 {
     top: 12em;
