@@ -32,6 +32,8 @@ html {
 .e-h1 {
   font-size: 3em;
   font-weight: bold;
+  color: white;
+  text-align: center;
 }
 
 .e-port {
@@ -677,11 +679,11 @@ header nav li {
   }
 
   .e-page {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .e-h1 {
-    font-size: 5em;
+    font-size: 4em;
   }
 
   .home-button1 {
