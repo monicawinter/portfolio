@@ -498,6 +498,10 @@ figcaption {
 
 @media only screen and (min-width: 500px) {
 
+  .e-h1 {
+    font-size: 4em;
+  }
+
 .home-logo {
   position: absolute;
   width: 100%;
@@ -680,10 +684,6 @@ header nav li {
 
   .e-page {
     font-size: 1.5em;
-  }
-
-  .e-h1 {
-    font-size: 4em;
   }
 
   .home-button1 {
@@ -1079,6 +1079,10 @@ header nav li {
 }
 
 @media only screen and (min-width: 1060px) {
+
+  .e-body {
+    margin-top: 10em;
+  }
 
   .home-logo {
     height: 110px;
