@@ -18,7 +18,7 @@ html {
 
 .e-body {
   background-color: black;
-  margin: 0em;
+  margin: 3em 1em 2em 1em;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
@@ -26,6 +26,12 @@ html {
 .e-page {
   color: white;
   text-align: center;
+  font-size: 1em;
+}
+
+.e-h1 {
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .e-port {
