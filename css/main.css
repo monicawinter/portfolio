@@ -34,7 +34,7 @@ html {
   font-weight: bold;
   color: white;
   text-align: center;
-  margin: 0.5em 1em 0em 1em;
+  margin: 0.5em 1em 0.5em 1em;
 }
 
 .e-port {
@@ -492,10 +492,6 @@ iframe {
   margin: 0em 3em 2em 3em;
 }
 
-.e-h1 {
-  margin: 0.5em 3em 0em 3em;
-}
-
 .written-section1 {
   margin: 0.5em 3.5em 4em 3.5em;
 }
@@ -695,7 +691,7 @@ header nav li {
 
   .e-page {
     font-size: 1.5em;
-    margin: 0em 3em 2em 3em;
+    margin: 0em 0.5em 2em 0.5em;
   }
 
   .home-button1 {
